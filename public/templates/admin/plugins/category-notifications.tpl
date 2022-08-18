@@ -14,6 +14,18 @@
 			</div>
 		</div>
 	</div>
+	<div class="row">
+    		<div class="col-sm-6 col-xs-12">
+    			<div class="form-group">
+    				<label>Default subsciption</label>
+    				<select id="subscriptionSetting" name="subscription" class="form-control" >
+    					<option value="never">Users are unsubscribed in all categories by default</option>
+    					<option value="always">Users are subscribed in all categories by default</option>
+    				</select>
+    			</div>
+    		</div>
+    	</div>
+    <div>
 </form>
 
 <button id="save" class="floating-button mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
